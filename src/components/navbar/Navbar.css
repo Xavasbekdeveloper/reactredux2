@@ -1,0 +1,26 @@
+.navbar{
+    height: 80px;
+    background: linear-gradient(30deg, dodgerblue,violet);
+    color: #fff;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a.active{
+    color: crimson;
+}
+.navbar a sup{
+    background: crimson;
+    color: #fff;
+    padding: 1px 3px;
+    min-width: 16px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 11px;
+}

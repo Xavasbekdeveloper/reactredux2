@@ -1,0 +1,10 @@
+.home{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: linear-gradient(40deg, #fbc8fb, #b6dbff );
+    text-align: center;
+    color: dodgerblue;
+    display: grid;
+    place-items: center;
+    font-size: 4vw;
+}

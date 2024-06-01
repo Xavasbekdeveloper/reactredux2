@@ -1,0 +1,53 @@
+.users__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px 10%;
+}
+.users__card {
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 0 8px #0002, 15px 15px 15px #0001;
+  line-height: 1.6;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.users__card img {
+  width: 100%;
+}
+.users__card h2 {
+  color: dodgerblue;
+}
+.users__card button {
+  padding: 6px 20px;
+  background: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+.users__card button:active {
+  opacity: 0.7;
+}
+
+.users__card__hour {
+  position: absolute;
+  bottom: 20px;
+  right: 8px;
+  font-size: 13px;
+}
+
+.users__card__edit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(75px);
+  transition: all 0.3s ease-in-out;
+}
+
+.users__card:hover .users__card__edit {
+  transform: translate(0);
+}
